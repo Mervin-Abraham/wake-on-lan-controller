@@ -1,0 +1,17 @@
+# Copy this file to config/device.yaml and fill in real values.
+
+wifi:
+  ssid: "Your_2G_WiFi_Name"              # Router Wi‑Fi name (2.4 GHz only). Windows: taskbar Wi‑Fi → Connected network name.
+  password: "Your_WiFi_Password"         # Exact password as on router label/admin UI.
+
+esp:
+  token: "change_this_to_a_long_random"  # 20–40 chars. Generate with: openssl rand -base64 32 (or any password generator)
+  target_mac: "AA:BB:CC:DD:EE:FF"        # PC Ethernet MAC. Windows: cmd → ipconfig /all → Physical Address (replace '-' with ':')
+  broadcast_ip: "192.168.1.255"          # Subnet broadcast. If your IP is 192.168.18.x with mask 255.255.255.0 → use 192.168.18.255
+  wol_port: 9                            # Usually 7 or 9
+
+host:
+  ip: "192.168.x.y"                      # PC IPv4. Windows: cmd → ipconfig → IPv4 Address
+  port: 8888                             # Host agent HTTP port
+  allowed_ips: []                        # Optional whitelist (e.g., ["192.168.18.219"]) leave [] to allow LAN
+

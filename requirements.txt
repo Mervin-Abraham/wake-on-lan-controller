@@ -1,0 +1,6 @@
+Flask==3.0.0
+Werkzeug==3.0.1
+pywin32>=306
+PyYAML>=6.0
+
+

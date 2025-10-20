@@ -1,0 +1,83 @@
+# Arduino IDE
+*.ino.tmp
+*.elf
+*.hex
+*.bin
+*.map
+*.ino.cpp
+*.ino.d
+*.ino.o
+build/
+.build/
+
+# VS Code / PlatformIO
+.vscode/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.pyc
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# User configuration (if you create separate config files)
+config_local.h
+secrets.h
+credentials.h
+
+# Logs
+*.log
+serial_output.txt
+
+# IDE specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Python (if you add any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Node.js (if you add any Node.js tools)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Compiled Object files
+*.o
+*.a
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Documentation builds
+docs/_build/
+docs/.buildinfo
+
+# Testing
+test_results/
+*.test
+
+
+config/device.yaml
